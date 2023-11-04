@@ -2,7 +2,6 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { ThemeProvider } from 'styled-components';
 import { App } from 'components/App';
-// import './index.css';
 
 const theme = {
   colors: {
@@ -12,9 +11,7 @@ const theme = {
     blue: '#5CC5CC',
     lightblue: 'rgba(92, 197, 204, 0.30)',
     shadowblue: 'rgba(92, 197, 204, 0.75)',
-    green: 'green',
-    red: 'red',
-    bgcolor: '#C5D4D4',
+    bgcolor: 'rgba(197, 212, 212, 0.90)',
   },
 
   radii: {

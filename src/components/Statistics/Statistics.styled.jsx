@@ -44,6 +44,10 @@ export const StatListItem = styled.li`
   padding: ${p => p.theme.spacing(3)} 0;
   gap: ${p => p.theme.spacing(2)};
   background-color: ${getRandomHexColor};
+
+  &:hover {
+    background-color: ${p => p.theme.colors.blue};
+  }
 `;
 
 export const StatLabel = styled.span`

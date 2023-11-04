@@ -61,6 +61,10 @@ export const StatsItem = styled.li`
   &:not(:last-child) {
     border-right: 1px solid ${p => p.theme.colors.blue};
   }
+
+  &:hover {
+    background-color: ${p => p.theme.colors.shadowblue};
+  }
 `;
 
 export const StatsLabel = styled.span`
