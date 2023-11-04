@@ -13,6 +13,9 @@ export const ProfileWrapper = styled.div`
   align-items: center;
   gap: ${p => p.theme.spacing(8)};
   margin-bottom: ${p => p.theme.spacing(10)};
+  box-shadow: 3px 3px 15px 1px ${p => p.theme.colors.shadowblue};
+  -webkit-box-shadow: 3px 3px 15px 1px ${p => p.theme.colors.shadowblue};
+  -moz-box-shadow: 3px 3px 15px 1px ${p => p.theme.colors.shadowblue};
 `;
 
 export const Description = styled.div`

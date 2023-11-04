@@ -9,11 +9,15 @@ const getRandomHexColor = props => {
 export const StatSection = styled.section`
   width: 360px;
   background-color: ${p => p.theme.colors.white};
-  border: 1px solid ${p => p.theme.colors.blue};
-  border-radius: ${p => p.theme.radii.sm};
+  border: 2px solid ${p => p.theme.colors.blue};
+  border-radius: ${p => p.theme.radii.md};
+  overflow: hidden;
   display: flex;
   flex-direction: column;
   margin: 0 auto ${p => p.theme.spacing(10)};
+  box-shadow: 3px 3px 15px 1px ${p => p.theme.colors.shadowblue};
+  -webkit-box-shadow: 3px 3px 15px 1px ${p => p.theme.colors.shadowblue};
+  -moz-box-shadow: 3px 3px 15px 1px ${p => p.theme.colors.shadowblue};
 `;
 
 export const StatTitle = styled.h2`

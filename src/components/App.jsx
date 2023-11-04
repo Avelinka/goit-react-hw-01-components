@@ -7,8 +7,8 @@ import { Profile } from './Profile/Profile';
 import data from './Statistics/data.json';
 import { Statistics } from './Statistics/Statistics';
 
-import friends from './FriendList/friends.json';
-import { FriendList } from './FriendList/FriendList';
+import friends from './Friends/friends.json';
+import { FriendList } from './Friends/FriendList/FriendList';
 
 export const App = () => {
   return (
@@ -21,7 +21,7 @@ export const App = () => {
         stats={user.stats}
       />
       <Statistics title="Upload stats" stats={data} />
-      <FriendList friends={friends} />;
+      <FriendList friends={friends} />
       <GlobalStyle />
     </Container>
   );
